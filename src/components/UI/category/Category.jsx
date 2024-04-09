@@ -3,31 +3,52 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 import categoryImg01 from "../../../assets/images/category-01.png";
-import categoryImg02 from "../../../assets/images/category-02.png";
-import categoryImg03 from "../../../assets/images/category-03.png";
-import categoryImg04 from "../../../assets/images/category-04.png";
+import categoryImg02 from "../../../assets/images/category-01.png";
+import categoryImg03 from "../../../assets/images/category-01.png";
+import categoryImg04 from "../../../assets/images/category-01.png";
 
 import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "NorthWest",
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "SouthWest",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "Center",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Litoral",
     imgUrl: categoryImg04,
   },
+  {
+    display: "West",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "East",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "North",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "South",
+    imgUrl: categoryImg04,
+  },
+  {
+    display: "FarNorth",
+    imgUrl: categoryImg04,
+  },
+
 ];
 
 const Category = () => {

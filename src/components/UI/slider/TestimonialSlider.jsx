@@ -22,38 +22,36 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+          "I've tried other food delivery services, but SNAPVOR's customer support 
+          truly sets them apart. Whenever I've had an issue with my order, their team 
+          has been quick to respond and resolve it. It's refreshing to know they genuinely 
+          care about their customers' satisfaction."
         </p>
         <div className=" slider__content d-flex align-items-center gap-3 ">
           <img src={ava01} alt="avatar" className=" rounded" />
-          <h6>Jhon Doe</h6>
+          <h6>Kanjo El</h6>
         </div>
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+          "SNAPVOR has made my life so much easier! I love being able to order 
+          from my favorite restaurants no matter where I am. The app is super easy to use, 
+          and the delivery always arrives on time. 5 stars!"
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava02} alt="avatar" className=" rounded" />
-          <h6>Mitchell Marsh</h6>
+          <h6>Tamba Joyce</h6>
         </div>
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+          "As a busy professional, I rely on SNAPVOR to provide me with delicious meals when 
+          I don't have time to cook. Their wide range of restaurant options and seamless ordering 
+          process make it my go-to food delivery platform. Highly recommend!"
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava03} alt="avatar" className=" rounded" />
-          <h6>Steven Crock</h6>
+          <h6>Steve Jr</h6>
         </div>
       </div>
     </Slider>

@@ -37,15 +37,11 @@ const featureData = [
     desc: "Savor in a SNAP: Indulge in culinary delights with SNAPSAVOR, the app that delivers deliciousness at lightning speed.",
   },
 
-  {
-    title: "Super Dine In",
-    imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
-  },
+  
   {
     title: "Easy Pick Up",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Discover the ease of Easy Pick Up or delivery! Get your favorite meals quickly and effortlessly, whether you're on the move or craving a cozy night in. With just a tap, enjoy delicious food hassle-free.",
   },
 ];
 
@@ -156,14 +152,6 @@ const Home = () => {
               <h2 className="feature__title">
                 we will <span>take care</span>
               </h2>
-              <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
-              </p>
-              <p className="feature__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, eius.{" "}
-              </p>
             </Col>
 
             {featureData.map((item, index) => (
@@ -207,7 +195,7 @@ const Home = () => {
                   onClick={() => setCategory("BURGER")}
                 >
                   <img src={foodCategoryImg01} alt="" />
-                  Burger
+                  International dishes
                 </button>
 
                 <button
@@ -217,18 +205,10 @@ const Home = () => {
                   onClick={() => setCategory("PIZZA")}
                 >
                   <img src={foodCategoryImg02} alt="" />
-                  Pizza
+                  Native Food
                 </button>
 
-                <button
-                  className={`d-flex align-items-center gap-2 ${
-                    category === "BREAD" ? "foodBtnActive" : ""
-                  } `}
-                  onClick={() => setCategory("BREAD")}
-                >
-                  <img src={foodCategoryImg03} alt="" />
-                  Bread
-                </button>
+                
               </div>
             </Col>
 
@@ -253,11 +233,10 @@ const Home = () => {
                 <h2 className="tasty__treat-title mb-4">
                   Why <span>SNAPVOR?</span>
                 </h2>
-                <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                <p className="tasty__treat-desc"> 
+                SNAPVOR prioritizes customer service, ensuring timely deliveries 
+                and resolving any issues promptly. By choosing SNAPVOR, customers can indulge 
+                in delicious meals from their favorite local eateries with convenience and confidence.
                 </p>
 
                 <ListGroup className="mt-4">
@@ -267,8 +246,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                    Fresh flavors, delivered fast.
                     </p>
                   </ListGroupItem>
 
@@ -277,8 +255,7 @@ const Home = () => {
                       <i class="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                    At SNAPVOR, quality support is our promise.
                     </p>
                   </ListGroupItem>
 
@@ -288,8 +265,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                    Order from anywhere, satisfy your cravings everywhere.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -303,7 +279,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5 ">
-              <h2>Hot Pizza</h2>
+              <h2>Hot Food</h2>
             </Col>
 
             {hotPizza.map((item) => (
@@ -325,9 +301,10 @@ const Home = () => {
                   What our <span>customers</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                Here's what some of our satisfied customers have to say 
+                about their experience with SNAPVOR. We take pride in providing 
+                excellent service and delicious meals to our valued patrons. See for 
+                yourself what sets us apart from the rest!
                 </p>
 
                 <TestimonialSlider />

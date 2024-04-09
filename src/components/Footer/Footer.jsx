@@ -13,10 +13,7 @@ const Footer = () => {
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
               <h5>SNAPSAVOR</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt pariatur accusamus
-              </p>
+            
             </div>
           </Col>
 
